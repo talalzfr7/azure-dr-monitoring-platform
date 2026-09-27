@@ -2,7 +2,7 @@
 
 > A monitoring, backup, and disaster-recovery design for an MSP client Azure environment.
 
-**Status: design/specification baseline.** This public repository records the intended operational architecture, retention decisions, KQL scenarios, and verification criteria. The Bicep, KQL implementation, ASR test results, and observed RTO are intentionally not published yet.
+**Status: design and specification complete; implementation not yet merged.** This public repository records the intended operational architecture, retention decisions, KQL scenarios, and verification criteria. The Bicep, KQL implementation, ASR test results, and observed RTO are intentionally not published yet.
 
 ## Client scenario
 

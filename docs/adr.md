@@ -1,9 +1,9 @@
 # Architecture Decision Record: DR and Monitoring Platform
 
-- **Status:** Proposed design baseline
+- **Status:** Design and specification complete; implementation not yet merged
 - **Date:** 2026-09-27
 - **Scope:** MSP monitoring, backup, and Azure-to-Azure disaster recovery
-- **Implementation status:** Not yet published or deployed
+- **Implementation status:** Not yet merged or deployed
 
 ## Context
 
@@ -58,3 +58,4 @@ A completed project should provide deployable Bicep, four scenario-led KQL queri
 - RPO target and acceptable RTO agreed with the client before the test.
 - Whether five-year retention is required, affordable, and legally appropriate for the chosen client scenario.
 - Current costs and teardown order for Recovery Services vault, ASR, and protected resources.
+- Safe validation of the ingestion alert; the 4.5 GB threshold is specified but has not fired in an observed deployment.
